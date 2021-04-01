@@ -1,0 +1,104 @@
+* {
+  font-family: Arvo, sans-serif;
+}
+
+#jobname, #profil, #experience {
+  background-color: #80bcc5 !important;
+}
+
+#profil, #experience {
+  border-top: solid 1px #357b85;
+  border-bottom: solid 1px #357b85;
+}
+
+#cvname, #contact, #competences, #formation {
+  background-color: #a1a1a1;
+}
+
+#contact, #competences, #formation {
+  border-top: solid 1px #727272;
+  border-bottom: solid 1px #727272;
+}
+
+#coldroite, #contactbg {
+  background-color: #e6e6e6;
+}
+
+#prenom {
+  color: #e6e6e6;
+}
+
+img {
+  width: 70%;
+}
+
+h3 {
+  color: whitesmoke;
+  margin: 0;
+}
+
+h4 {
+  font-size: 1.4em;
+}
+
+h5 {
+  font-size: 0.7em;
+  font-style: italic;
+  margin-left: 10%;
+}
+
+h6 {
+  font-size: 1.2em;
+}
+
+ul span {
+  font-style: italic;
+  font-family: "Roboto Light", sans-serif;
+  font-size: 0.8em !important;
+}
+
+#jobname p {
+  font-family: "Roboto Light", sans-serif;
+  margin: 5px 0;
+}
+
+.border_bottom {
+  border-bottom: solid 1px #357b85;
+}
+
+.item {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  border-bottom: 1px dashed rgba(193, 193, 193, 0.5);
+  margin: 15px 0;
+}
+.item p {
+  font-size: 0.9em;
+  text-align: justify;
+}
+.item .w-25 {
+  width: 15% !important;
+}
+.item .w-75 {
+  width: 85% !important;
+}
+
+.height100 {
+  height: 95% !important;
+}
+
+@media screen and (max-width: 600px) {
+  .item {
+    flex-direction: column;
+  }
+  .item img {
+    min-width: 50px;
+    margin-bottom: 10px;
+  }
+  .item i {
+    margin-bottom: 10px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
